@@ -29,11 +29,11 @@ export default component$(() => {
       </header>
 
       {/* Form */}
-      <main class="flex justify-center w-full px-4 py-10">
+      <main class="flex justify-center w-full sm:px-4 py-10">
         <form
           preventdefault:submit
           onSubmit$={handleSubmit}
-          class="w-full max-w-2xl bg-white p-8 rounded-xl shadow-lg space-y-6"
+          class="w-full max-w-2xl bg-white p-4 sm:p-8 rounded-xl shadow-lg space-y-6"
         >
           {/* Full Name */}
           <div class="flex flex-col">
